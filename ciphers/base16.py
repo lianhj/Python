@@ -6,6 +6,7 @@ def main():
     b16encoded = base64.b16encode(encoded) #b16encoded the encoded string
     print(b16encoded)
     print(base64.b16decode(b16encoded).decode('utf-8'))#decoded it
+    print("hello git")
 
 if __name__ == '__main__':
     main()
