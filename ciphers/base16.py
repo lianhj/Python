@@ -7,6 +7,7 @@ def main():
     print(b16encoded)
     print(base64.b16decode(b16encoded).decode('utf-8'))#decoded it
     print("hello git")
+    print("hello yesterday")
 
 if __name__ == '__main__':
     main()
