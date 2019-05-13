@@ -50,3 +50,4 @@ def palindromic_string( input_string ):
 if __name__ == '__main__':
     n = input()
     print(palindromic_string(n))
+    print("111")
