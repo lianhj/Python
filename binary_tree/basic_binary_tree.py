@@ -13,6 +13,7 @@ def display(tree): #In Order traversal of the tree
         display(tree.left)
 
     print(tree.data)
+    print("what are you doing ")
 
     if tree.right is not None:
         display(tree.right)
